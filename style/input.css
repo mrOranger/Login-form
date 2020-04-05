@@ -1,0 +1,29 @@
+.input, .username-input, .password-input, .name-input, .surname-input, .error-input {
+  background-color: none;
+  border-radius: 0 15px 15px 15px;
+  cursor: pointer;
+  outline: none;
+  background: rgba(140, 255, 140, 0.212); }
+
+.username-input, .password-input, .name-input, .surname-input {
+  border: 1px solid rgba(118, 248, 209, 0.623);
+  width: 300px;
+  height: 35px;
+  font-size: 15px;
+  padding: 10px;
+  transition: 0.8s; }
+
+.error-input {
+  border: 1px solid rgba(248, 118, 118, 0.623);
+  width: 300px;
+  height: 35px;
+  font-size: 15px;
+  padding: 10px;
+  transition: 0.8s; }
+
+.username-input:focus, .password-input:focus, .name-input:focus, .surname-input:focus, .error-input:hover {
+  width: 300px;
+  height: 45px;
+  background-color: rgba(140, 255, 140, 0.5); }
+
+/*# sourceMappingURL=input.css.map */

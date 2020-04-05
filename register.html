@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset = "utf-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE = edge">
+        <title>Awesome Login</title>
+        <meta name = "description" content = "">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+        <link rel = "stylesheet" href = "style/register.css">
+    </head>
+    <body>
+        <div class = "register-container">
+            <form class = "register-form">
+                <h2 class = "title">Register a new account</h2>
+                <div id = "name-container" class = "container">
+                    <input id = "name-field" class = "input name-input" type = "text" placeholder = "Type your name" />
+                </div>
+                <div id = "surname-container" class = "container">
+                    <input id = "surname-field" class = "input surname-input" type = "text" placeholder = "Type your surname" />
+                </div>
+                <div id = "username-container" class = "container">
+                    <input id = "username-field" class = "input username-input" type = "text" placeholder = "Type your username" />
+                </div>
+                <div id = "password-container" class = "container">
+                    <input id = "password-field" class = "input password-input" type = "password" placeholder = "Type your password" />
+                </div>
+                <button id = "register-button" class = "button register-button" onClick = "return validate()">Register</button>
+                <a id = "register-link" class = "link register-link" href = "index.html">Do you have an account yet?</a>
+            </form>
+        </div>
+        <script type = "text/javascript" src = "script/registerScript.js"></script>
+    </body>
+</html>

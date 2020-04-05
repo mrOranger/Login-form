@@ -1,0 +1,40 @@
+$default-background: none;
+$default-border-color: 1px solid rgba(118, 248, 209, 0.623);
+$default-border-radius: 0 15px 15px 15px;
+$default-background-color: rgba(140, 255, 140, 0.212);
+$error-border-color: 1px solid rgba(248, 118, 118, 0.623);
+$default-background-color-focus: rgba(140, 255, 140, 0.5);
+
+.input {
+    background-color: $default-background;
+    border-radius: $default-border-radius;
+    cursor: pointer;
+    outline: none;
+    background: $default-background-color;
+}
+
+.username-input, .password-input, .name-input, .surname-input {
+    @extend .input;
+    border: $default-border-color;
+    width: 300px;
+    height: 35px;
+    font-size: 15px;
+    padding: 10px;
+    transition: 0.8s;
+}
+
+.error-input {
+    @extend .input;
+    border: $error-border-color;
+    width: 300px;
+    height: 35px;
+    font-size: 15px;
+    padding: 10px;
+    transition: 0.8s;
+}
+
+.username-input:focus, .password-input:focus, .name-input:focus, .surname-input:focus, .error-input:hover{
+    width: 300px;
+    height: 45px;
+    background-color: $default-background-color-focus;
+}

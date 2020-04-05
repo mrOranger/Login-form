@@ -1,0 +1,61 @@
+/* Default button variables */
+$default-button-width: 175px;
+$default-button-height: 40px;
+$default-login-button-background-color: rgba(140, 255, 140, 0.212);
+$default-login-button-border: 0 15px 15px 15px;
+$default-login-button-width-hover: 195px;
+$default-login-button-height-hover: 47px;
+$default-login-button-background-color-hover: rgba(140, 255, 140, 0.5);
+
+/* Link variables */
+$default-link-padding: 10px;
+$default-link-font-size: 20px;
+$default-link-color: rgb(174, 230, 174);
+$default-link-color-hover: rgb(115, 153, 115);
+
+
+.button {
+    width: $default-button-width;
+    height: $default-button-height;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.8s;
+}
+
+.login-button{
+    @extend .button;
+    border-radius: $default-login-button-border;
+    background-color: $default-login-button-background-color;
+}
+
+.login-button:hover {
+    width: $default-login-button-width-hover;
+    height: $default-login-button-height-hover;
+    background-color: $default-login-button-background-color-hover;
+}
+
+.register-button{
+    @extend .button;
+    border-radius: $default-login-button-border;
+    background-color: $default-login-button-background-color;
+}
+
+.register-button:hover {
+    width: $default-login-button-width-hover;
+    height: $default-login-button-height-hover;
+    background-color: $default-login-button-background-color-hover;
+}
+
+
+.link {
+    padding: $default-link-padding;
+    font-size: $default-link-font-size;
+    color: $default-link-color;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+.link:hover {
+    color: $default-link-color-hover;
+}

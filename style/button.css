@@ -1,0 +1,39 @@
+/* Default button variables */
+/* Link variables */
+.button, .login-button, .register-button {
+  width: 175px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.8s; }
+
+.login-button {
+  border-radius: 0 15px 15px 15px;
+  background-color: rgba(140, 255, 140, 0.212); }
+
+.login-button:hover {
+  width: 195px;
+  height: 47px;
+  background-color: rgba(140, 255, 140, 0.5); }
+
+.register-button {
+  border-radius: 0 15px 15px 15px;
+  background-color: rgba(140, 255, 140, 0.212); }
+
+.register-button:hover {
+  width: 195px;
+  height: 47px;
+  background-color: rgba(140, 255, 140, 0.5); }
+
+.link {
+  padding: 10px;
+  font-size: 20px;
+  color: #aee6ae;
+  text-decoration: none;
+  transition: 0.8s; }
+
+.link:hover {
+  color: #739973; }
+
+/*# sourceMappingURL=button.css.map */
